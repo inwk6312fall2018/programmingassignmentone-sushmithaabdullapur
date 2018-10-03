@@ -18,7 +18,7 @@ def  modify(fout):
 #replaceing the 172 by 10 by using replace method
       word=word.replace(x,z)
 #replaceing the 172 by 10 by using replace method
-    else word == y:
+    elif word == y:
       word=word.replace(y,z)
 file=open("config.txt",'r') 
 modify(file)
